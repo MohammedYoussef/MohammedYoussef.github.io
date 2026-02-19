@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Yossef | QA Automation Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">MY<span class="accent">.</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="Mohamed_Youssef_CV.pdf" download class="nav-btn"><i class="fas fa-download"></i> Download CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-split">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Mohamed Yossef<span class="accent">.</span></h1>
+                <div class="hero-title-wrapper">
+                    <span class="hero-title-prefix">Senior</span>
+                    <span class="hero-title" id="typedText"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    4+ years of experience crafting robust automation frameworks for web, mobile & API applications.
+                </p>
+                <div class="hero-cta">
+                    <a href="Mohamed_Youssef_CV.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> Download CV</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    <a href="#experience" class="btn btn-outline">View Experience</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="4">0</span><span class="accent">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="7">0</span><span class="accent">+</span>
+                        <span class="stat-label">Major Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="2">0</span>
+                        <span class="stat-label">ISTQB Certs</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <img src="profile.jpg" alt="Mohamed Yossef" />
+                    <div class="hero-image-ring"></div>
+                    <div class="hero-image-ring ring-2"></div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me<span class="accent">.</span></h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a <strong>Results-driven QA Automation Engineer</strong> based in Cairo, Egypt, with over 4 years of hands-on experience in software automation testing for web, mobile, and API applications.
+                    </p>
+                    <p>
+                        I specialize in building automation frameworks from scratch using <strong>Selenium</strong>, <strong>Appium</strong>, and <strong>Playwright</strong>, with deep expertise in API automation using <strong>Rest Assured</strong>. My strong background in CI/CD integration, database testing, and agile methodologies enables me to deliver high-quality software at speed.
+                    </p>
+                    <p>
+                        I'm passionate about improving QA processes, mentoring junior engineers, and implementing best practices that elevate the entire team's output.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cairo, Egypt</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>B.Sc. Computer Science, Helwan University</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <span>Arabic (Native) &bull; English (Fluent)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fas fa-bug"></i></div>
+                        <h3>QA Automation</h3>
+                        <p>Building robust, scalable test automation frameworks from scratch</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fas fa-code"></i></div>
+                        <h3>API Testing</h3>
+                        <p>REST & SOAP API validation with Rest Assured & Postman</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h3>Mobile Testing</h3>
+                        <p>Cross-platform mobile testing with Appium on Android & iOS</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fas fa-cogs"></i></div>
+                        <h3>CI/CD Integration</h3>
+                        <p>Jenkins, GitLab CI/CD & Azure Pipelines for automated execution</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills<span class="accent">.</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>Automation Tools</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Selenium WebDriver</span>
+                        <span class="skill-tag">Playwright</span>
+                        <span class="skill-tag">Appium</span>
+                        <span class="skill-tag">TestNG</span>
+                        <span class="skill-tag">JUnit</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Performance & Security</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JMeter</span>
+                        <span class="skill-tag">Performance Testing</span>
+                        <span class="skill-tag">Security Testing</span>
+                        <span class="skill-tag">Load Testing</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-plug"></i>
+                        <h3>API Testing</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Rest Assured</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">REST</span>
+                        <span class="skill-tag">SOAP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">SQL Server</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-infinity"></i>
+                        <h3>CI/CD & DevOps</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">GitLab CI/CD</span>
+                        <span class="skill-tag">Azure Pipelines</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-tasks"></i>
+                        <h3>Test Management</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Jira</span>
+                        <span class="skill-tag">Azure DevOps</span>
+                        <span class="skill-tag">TestRail</span>
+                        <span class="skill-tag">Confluence</span>
+                        <span class="skill-tag">Allure Reports</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Frameworks & Patterns</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">POM</span>
+                        <span class="skill-tag">Data-Driven</span>
+                        <span class="skill-tag">Keyword-Driven</span>
+                        <span class="skill-tag">Hybrid</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-sync-alt"></i>
+                        <h3>Methodologies</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">Scrum</span>
+                        <span class="skill-tag">SDLC</span>
+                        <span class="skill-tag">STLC</span>
+                        <span class="skill-tag">Risk-based Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience<span class="accent">.</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Freelance QA Engineer</h3>
+                            <span class="timeline-company">Doctor Golf</span>
+                            <span class="timeline-badge">Freelance</span>
+                            <span class="timeline-date">December 2025 - Present</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Performing automation testing for a medical platform using modern test frameworks</li>
+                            <li>Conducting performance testing to ensure system reliability under high loads</li>
+                            <li>Executing security testing to identify vulnerabilities and ensure HIPAA-compliant data protection</li>
+                            <li>Delivering comprehensive test reports with actionable insights for the development team</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Senior QA Automation Engineer</h3>
+                            <span class="timeline-company">Envnt</span>
+                            <span class="timeline-date">March 2022 - Present</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Built automation frameworks from scratch using POM, Data-Driven, and Hybrid design patterns</li>
+                            <li>Led end-to-end automation testing for web and mobile applications using Selenium, Playwright, and Appium</li>
+                            <li>Developed API automation suites using Rest Assured for REST/SOAP validation</li>
+                            <li>Performed database testing with complex SQL queries across MySQL, PostgreSQL, and MongoDB</li>
+                            <li>Configured CI/CD pipelines using Jenkins and GitLab for automated test execution</li>
+                            <li>Implemented Allure Reports for test execution analytics</li>
+                            <li>Mentored junior QA engineers and improved QA processes and standards</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>QA Automation Engineer</h3>
+                            <span class="timeline-company">GOLDADY</span>
+                            <span class="timeline-date">January 2021 - February 2022</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Designed and executed manual and automated test cases for web and mobile applications</li>
+                            <li>Developed automation scripts using Selenium WebDriver with Java and Python</li>
+                            <li>Performed API testing and automation using Postman and Rest Assured</li>
+                            <li>Built reusable test automation components and maintained framework architecture</li>
+                            <li>Integrated automated tests into CI/CD pipelines using Jenkins</li>
+                            <li>Performed functional and non-functional testing including performance testing with JMeter</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Testing Engineer</h3>
+                            <span class="timeline-company">IDEMIA France</span>
+                            <span class="timeline-date">September 2020 - December 2020</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Tested mobile application for face recognition and biometric authentication</li>
+                            <li>Performed Face ID and fingerprint testing across multiple devices and environments</li>
+                            <li>Conducted mobile testing on Android and iOS platforms</li>
+                            <li>Reported defects with detailed documentation and supporting evidence</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <h2 class="section-title">Key Projects<span class="accent">.</span></h2>
+            <div class="projects-grid">
+                <div class="project-card featured-project" data-category="web">
+                    <div class="project-icon"><i class="fas fa-stethoscope"></i></div>
+                    <h3>Doctor Golf</h3>
+                    <p class="project-desc">Medical platform</p>
+                    <div class="project-tags">
+                        <span>Automation</span>
+                        <span>Performance</span>
+                        <span>Security</span>
+                    </div>
+                    <span class="project-badge">Freelance</span>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>SEEC</h3>
+                    <p class="project-desc">Energy efficiency platform</p>
+                    <div class="project-tags">
+                        <span>Functional</span>
+                        <span>Mobile</span>
+                        <span>API</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>TAWUNIYA</h3>
+                    <p class="project-desc">Insurance platform</p>
+                    <div class="project-tags">
+                        <span>Functional</span>
+                        <span>Integration</span>
+                        <span>Mobile</span>
+                        <span>Database</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile">
+                    <div class="project-icon"><i class="fas fa-search"></i></div>
+                    <h3>AGRISERV</h3>
+                    <p class="project-desc">Inspection application</p>
+                    <div class="project-tags">
+                        <span>Functional</span>
+                        <span>UI/UX</span>
+                        <span>Mobile</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-icon"><i class="fas fa-gavel"></i></div>
+                    <h3>INFATH</h3>
+                    <p class="project-desc">Asset liquidation platform (KSA)</p>
+                    <div class="project-tags">
+                        <span>Functional</span>
+                        <span>Integration</span>
+                        <span>API</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <h3>ENSPCT</h3>
+                    <p class="project-desc">Digital forms solution</p>
+                    <div class="project-tags">
+                        <span>Functional</span>
+                        <span>UI/UX</span>
+                        <span>Database</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-icon"><i class="fas fa-coins"></i></div>
+                    <h3>GOLDADY</h3>
+                    <p class="project-desc">Gold trading platform</p>
+                    <div class="project-tags">
+                        <span>Functional</span>
+                        <span>UI/UX</span>
+                        <span>Database</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications<span class="accent">.</span></h2>
+            <div class="certs-featured">
+                <div class="cert-card featured">
+                    <div class="cert-badge"><i class="fas fa-award"></i></div>
+                    <div class="cert-info">
+                        <h3>ISTQB CTFL</h3>
+                        <p>Certified Tester Foundation Level</p>
+                        <span class="cert-id">Certificate #250115001</span>
+                    </div>
+                </div>
+                <div class="cert-card featured">
+                    <div class="cert-badge"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="cert-info">
+                        <h3>ISTQB MAT</h3>
+                        <p>Mobile Application Testing</p>
+                        <span class="cert-id">Certificate #251204115</span>
+                    </div>
+                </div>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <div class="cert-badge"><i class="fas fa-globe"></i></div>
+                    <h3>Selenium WebDriver</h3>
+                    <p>Automation Certification</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge"><i class="fas fa-theater-masks"></i></div>
+                    <h3>Playwright</h3>
+                    <p>Automation Certification</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge"><i class="fas fa-plug"></i></div>
+                    <h3>API Testing</h3>
+                    <p>Postman & Rest Assured</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge"><i class="fas fa-users"></i></div>
+                    <h3>Agile & Scrum</h3>
+                    <p>Fundamentals Certification</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-alt" id="education">
+        <div class="container">
+            <h2 class="section-title">Education<span class="accent">.</span></h2>
+            <div class="education-card">
+                <div class="edu-icon"><i class="fas fa-university"></i></div>
+                <div class="edu-content">
+                    <h3>Bachelor's Degree in Computer Science</h3>
+                    <p class="edu-school">Helwan University</p>
+                    <p class="edu-date">2016 - 2020</p>
+                    <p class="edu-details">Major: Information System | Minor: Computer Science</p>
+                    <p class="edu-project">Graduation Project: E-commerce Web App with Data Analysis <span class="grade">Grade A+</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch<span class="accent">.</span></h2>
+            <p class="contact-subtitle">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+            <div class="contact-grid">
+                <a href="mailto:mohammedyossef843@gmail.com" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>mohammedyossef843@gmail.com</p>
+                </a>
+                <a href="tel:+201002407517" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <h3>Phone</h3>
+                    <p>+20 100 240 7517</p>
+                </a>
+                <a href="https://linkedin.com/in/mohammed-yossef-045570110" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p>mohammed-yossef</p>
+                </a>
+                <a href="https://github.com/MohammedYoussef" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon"><i class="fab fa-github"></i></div>
+                    <h3>GitHub</h3>
+                    <p>MohammedYoussef</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#hero" class="footer-logo">MY<span class="accent">.</span></a>
+                <p>&copy; 2026 Mohamed Yossef. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="https://linkedin.com/in/mohammed-yossef-045570110" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/MohammedYoussef" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:mohammedyossef843@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
